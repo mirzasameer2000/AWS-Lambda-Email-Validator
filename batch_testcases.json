@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "totalTests": 10,
+    "passed": 4,
+    "failed": 6
+  },
+  "results": [
+    {
+      "testName": "Valid email - basic",
+      "email": "user@example.com",
+      "isValid": true,
+      "status": "PASS",
+      "message": "Email address is valid"
+    }
+  ]
+}
