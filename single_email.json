@@ -1,0 +1,44 @@
+{
+  "testCases": [
+    {
+      "name": "Valid email - basic",
+      "email": "user@example.com"
+    },
+    {
+      "name": "Valid email - with subdomain",
+      "email": "test.email+tag@subdomain.domain.co.uk"
+    },
+    {
+      "name": "Valid email - with numbers and hyphens",
+      "email": "john.doe123@company-name.org"
+    },
+    {
+      "name": "Valid email - with special characters",
+      "email": "user.name+tag@example-site.com"
+    },
+    {
+      "name": "Invalid email - missing @",
+      "email": "invalidemail.com"
+    },
+    {
+      "name": "Invalid email - missing domain",
+      "email": "user@"
+    },
+    {
+      "name": "Invalid email - missing local part",
+      "email": "@domain.com"
+    },
+    {
+      "name": "Invalid email - TLD too short",
+      "email": "user@domain.c"
+    },
+    {
+      "name": "Invalid email - no TLD",
+      "email": "user@domain"
+    },
+    {
+      "name": "Invalid email - spaces",
+      "email": "user name@domain.com"
+    }
+  ]
+}
